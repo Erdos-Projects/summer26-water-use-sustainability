@@ -3,7 +3,7 @@ Team project: summer26-water-use-sustainability
 
 ## Problem Definition
 
-We will model the amount of water in a specific reservoir as a function of various factors such as temperature, snowpack, precipitation, population dependent on the reservoir for water, number of farms in the vicinity, number of data centers, etc. 
+We will model the amount of water in a specific reservoir as a function of various factors such as temperature, snowpack, precipitation, cloud cover, evaporation rate, population dependent on the reservoir for water, number of farms in the vicinity, number of data centers, etc. 
 
 Note: it could also be interesting to model several reservoirs with a lot of data centers nearby to see if there are similarities in how they all behave wrt data centers.
 
