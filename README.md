@@ -3,7 +3,7 @@ Team project: summer26-water-use-sustainability
 
 ## Problem Definition
 
-We will model the amount of water in the Salt River Project reservoirs as a function of various factors such as temperature, snowpack, precipitation, cloud cover, evaporation rate, population dependent on the reservoir for water, number of farms in the vicinity, number of data centers, etc. The Salt River Project consists of a group of reservoirs on the Salt River and the Verde River, near Phoenix, AZ. It is a major source of drinking water for Phoenix, as well as irrigation water for farms in Maricopa County, AZ. Like many other areas of the Southwest, it has been affected by droughts in recent years, and these droughts are expected to worsen under climate change. At the same time, several data centers were recently built or are scheduled to be built in Phoenix, which could further put a strain on the city's water supply. 
+We will model the amount of water in the Salt and Verde River Reservoir System as a function of various factors such as temperature, snowpack, precipitation, cloud cover, evaporation rate, population dependent on the reservoir for water, number of farms in the vicinity, number of data centers, etc. This system consists of a group of reservoirs on the Salt River and the Verde River, near Phoenix, AZ. It is a major source of drinking water for Phoenix, as well as irrigation water for farms in Maricopa County, AZ. Like many other areas of the Southwest, it has been affected by droughts in recent years, and these droughts are expected to worsen under climate change. At the same time, several data centers were recently built or are scheduled to be built in Phoenix, which could further put a strain on the city's water supply. 
 
 
 ## Stakeholders
@@ -24,11 +24,20 @@ I'm not really sure what to put for secondary KPIs. Chat GPT suggests $R^2$ vari
 | **Technical** | Inference Latency | Time ($t_{\text{end}} - t_{\text{start}}$) | ⬇️ **Minimize** | Ensures the script runs fast enough for live software dashboards. |
 
 ## Data Gathering
-Each of the two rivers have water gages which measure water flow rate. For each river, we will look at the flow rate from a gage that is upstream of the reservoirs, and another that is downstream. The upstream gage is a measure of water input to the reservoirs from rainfall etc. The downstream gage measures how much water is released from the reservoirs, which should be roughly correlated with the demand for water (not all water released from the reservoirs is consumed by humans, some of it is just released to keep the river flowing and protect natural habitats etc. So this is not a perfect measure for water demand, but it should be good enough). Thus we will use data from four river gages in total. 
+Each of the two rivers have water gages which measure water flow rate. For each river, we will look at the flow rate from a gage that is upstream of the reservoirs, and another that is downstream. The upstream gage is a measure of water input to the reservoirs from snowpack, rainfall etc. The downstream gage measures how much water is released from the reservoirs, which should be roughly correlated with the demand for water (Note: not all water released from the reservoirs is consumed by humans, some of it is just released to keep the river flowing and protect natural habitats etc. So this is not a perfect measure for water demand, but it should be good enough). Thus we will use data from four river gages in total (one upstream + one downstream for each river). 
 
-Water gage Data: from USGS water data
-Feature data:
-Climate - need to finalize source 
-Human population - US Census Bureau? 
-Farmland area/irrigated acres - need to finalize source
-Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
+Note that data on reservoir water levels is not available, hence we are using flow rates instead. Upstream minus downsteam flow rate gives an estimate of the rate of change of water storage in the reservoir system, but the absolute water storage cannot be calculated from this data.
+
+**Water gage data**
+
+From USGS water data
+- Salt River upstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09498500
+- Salt River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09502000
+- Verde River upstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09508500
+- Verde River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09510000
+
+**Feature data**
+- Climate - need to finalize source 
+- Human population - US Census Bureau? 
+- Farmland area/irrigated acres - need to finalize source
+- Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
