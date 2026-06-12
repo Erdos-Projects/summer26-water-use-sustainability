@@ -37,7 +37,10 @@ From USGS water data
 - Verde River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09510000
 
 **Feature data**
-- Climate - need to finalize source 
+- Climate (averaged/summed over each river's watershed) - PRISM monthly timeseries (https://prism.oregonstate.edu)
 - Human population - US Census Bureau? 
 - Farmland area/irrigated acres - need to finalize source
 - Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
+
+**Other data**
+- Watershed boundaries - USGS StreamStats Basin Delineation tool (https://streamstats.usgs.gov/ss/)
