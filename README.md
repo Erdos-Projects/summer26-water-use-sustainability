@@ -32,7 +32,7 @@ Note that data on reservoir water levels is not available, hence we are using fl
 
 From USGS water data
 - Salt River upstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09498500
-- Salt River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09502000
+- Salt River downstream gage (BLW Stewart Mountain Dam): https://waterdata.usgs.gov/monitoring-location/USGS-09502000
 - Verde River upstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09508500
 - Verde River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09510000
 
