@@ -43,6 +43,7 @@ From USGS water data
   - Havi: I could only find population data starting in 2000. The data is given yearly, units are thousands of people.
 - Farmland area/irrigated acres - need to finalize source
 - Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
+  - Havi: I got Gemini to generate a CSV file with data center information. I checked a few entries for correctness but we should make sure all of the information is correct! This is in [phoenix_datacenters_chronological.csv](Data/RawData/phoenix_datacenters_chronological.csv).
 
 **Other data**
 - Watershed boundaries - USGS StreamStats Basin Delineation tool (https://streamstats.usgs.gov/ss/)
