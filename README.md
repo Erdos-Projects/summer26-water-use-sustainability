@@ -31,10 +31,22 @@ Note that data on reservoir water levels is not available, hence we are using fl
 **Water gage data**
 
 From USGS water data
-- Salt River upstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09498500
-- Salt River downstream gage (BLW Stewart Mountain Dam): https://waterdata.usgs.gov/monitoring-location/USGS-09502000
-- Verde River upstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09508500
-- Verde River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09510000
+- Salt River upstream gage
+  - Name: Salt River Near Roosevelt, AZ
+  - Gage number: USGS-09498500
+  - Link: https://waterdata.usgs.gov/monitoring-location/USGS-09498500
+- Salt River downstream gage
+  - Name: Salt River Blw Stewart Mountain Dam, AZ
+  - Gage number: USGS-09502000
+  - Link: https://waterdata.usgs.gov/monitoring-location/USGS-09502000
+- Verde River upstream gage
+  - Name: Verde Rvr Blw Tangle Creek, Abv Horseshoe Dam, AZ
+  - Gage number:  USGS-09508500
+  - Link: https://waterdata.usgs.gov/monitoring-location/USGS-09508500
+- Verde River downstream gage
+  - Name: Verde River Below Bartlett Dam, AZ
+  - Gage number: USGS-09510000
+  - Link: https://waterdata.usgs.gov/monitoring-location/USGS-09510000
 
 **Feature data**
 - Climate
