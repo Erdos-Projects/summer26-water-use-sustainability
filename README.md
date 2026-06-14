@@ -38,7 +38,7 @@ From USGS water data
 
 **Feature data**
 - Climate (averaged/summed over each river's watershed) - PRISM monthly timeseries (https://prism.oregonstate.edu)
-- Human population - US Census Bureau? 
+- Human population - Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/PHXPOP)
 - Farmland area/irrigated acres - need to finalize source
 - Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
 
