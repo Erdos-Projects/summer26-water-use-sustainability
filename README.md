@@ -37,8 +37,9 @@ From USGS water data
 - Verde River downstream gage: https://waterdata.usgs.gov/monitoring-location/USGS-09510000
 
 **Feature data**
-- Climate (averaged/summed over each river's watershed) - PRISM monthly timeseries (https://prism.oregonstate.edu)
-  - Havi: Daily data for January 1, 1985 to January 1, 2025 for the coordinates 33.43, -112 (a somewhat arbitrary location in the middle of Phoenix, AZ) is in [PRISM_climate_data_33.4300_-112.0000.csv](Data/RawData/PRISM_climate_data_33.4300_-112.0000.csv). The data is precipitation (in) and mean temperature (degrees F).
+- Climate
+  - Climate for Phoenix: Daily data for January 1, 1985 to January 1, 2025 for the coordinates 33.43, -112 (a somewhat arbitrary location in the middle of Phoenix, AZ) is in [PRISM_climate_data_33.4300_-112.0000.csv](Data/RawData/PRISM_climate_data_33.4300_-112.0000.csv). The data is precipitation (in) and mean temperature (degrees F).
+  - Climate for river watersheds - NOAA Monthly U.S. Climate Gridded Dataset (NClimGrid; https://www.ncei.noaa.gov/data/nclimgrid-monthly/access/), monthly data from Jan 1, 1895 - May 1, 2026. Downloaded data for the entire US (nclimgrid_prcp.nc and	nclimgrid_tavg.nc), then clipped to each watershed's boundaries, and then averaged temperature and summed precipitation for each watershed. Temperature in degree Celcius and precipitation in mm.
 - Human population - Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/PHXPOP)
   - Havi: I could only find population data starting in 2000. The data is given yearly, units are thousands of people.
 - Farmland area/irrigated acres - need to finalize source
