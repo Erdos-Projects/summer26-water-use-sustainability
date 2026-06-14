@@ -40,6 +40,7 @@ From USGS water data
 - Climate (averaged/summed over each river's watershed) - PRISM monthly timeseries (https://prism.oregonstate.edu)
   - Havi: Daily data for January 1, 1985 to January 1, 2025 for the coordinates 33.43, -112 (a somewhat arbitrary location in the middle of Phoenix, AZ) is in [PRISM_climate_data_33.4300_-112.0000.csv](Data/RawData/PRISM_climate_data_33.4300_-112.0000.csv). The data is precipitation (in) and mean temperature (degrees F).
 - Human population - Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/PHXPOP)
+  - Havi: I could only find population data starting in 2000. The data is given yearly, units are thousands of people.
 - Farmland area/irrigated acres - need to finalize source
 - Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
 
