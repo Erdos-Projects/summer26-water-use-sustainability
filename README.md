@@ -51,6 +51,7 @@ From USGS water data
 **Feature data**
 - Climate
   - Climate for Phoenix: Daily data for January 1, 1985 to January 1, 2025 for the coordinates 33.43, -112 (a somewhat arbitrary location in the middle of Phoenix, AZ) is in [PRISM_climate_data_33.4300_-112.0000.csv](Data/RawData/PRISM_climate_data_33.4300_-112.0000.csv). The data is precipitation (in) and mean temperature (degrees F).
+  - Climate for Maricopa County - NOAA Monthly U.S. Climate Gridded Dataset (NClimGrid; https://www.ncei.noaa.gov/data/nclimgrid-monthly/access/), monthly data from Jan 1, 1895 - May 1, 2026. Downloaded data for the entire US (nclimgrid_prcp.nc and	nclimgrid_tavg.nc), then clipped to county boundaries, and then averaged temperature and summed precipitation for each watershed. Temperature in degree Celcius and precipitation in mm.
   - Climate for river watersheds - NOAA Monthly U.S. Climate Gridded Dataset (NClimGrid; https://www.ncei.noaa.gov/data/nclimgrid-monthly/access/), monthly data from Jan 1, 1895 - May 1, 2026. Downloaded data for the entire US (nclimgrid_prcp.nc and	nclimgrid_tavg.nc), then clipped to each watershed's boundaries, and then averaged temperature and summed precipitation for each watershed. Temperature in degree Celcius and precipitation in mm.
 - Human population - Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/PHXPOP)
   - Havi: I could only find population data starting in 2000. The data is given yearly, units are thousands of people.
@@ -60,3 +61,4 @@ From USGS water data
 
 **Other data**
 - Watershed boundaries - USGS StreamStats Basin Delineation tool (https://streamstats.usgs.gov/ss/)
+- Map of Arizona counties (used to get the boundaries of Maricopa county for climate data preprocessing) - Arizona Department of Health Services GIS Portal (https://geodata-adhsgis.hub.arcgis.com/datasets/ADHSGIS::county-boundaries-in-arizona)
