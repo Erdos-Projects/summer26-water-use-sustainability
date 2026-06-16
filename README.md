@@ -55,7 +55,9 @@ From USGS water data
   - Climate for river watersheds - NOAA Monthly U.S. Climate Gridded Dataset (NClimGrid; https://www.ncei.noaa.gov/data/nclimgrid-monthly/access/), monthly data from Jan 1, 1895 - May 1, 2026. Downloaded data for the entire US (nclimgrid_prcp.nc and	nclimgrid_tavg.nc), then clipped to each watershed's boundaries, and then averaged temperature and summed precipitation for each watershed. Temperature in degree Celcius and precipitation in mm.
 - Human population - Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/PHXPOP)
   - Havi: I could only find population data starting in 2000. The data is given yearly, units are thousands of people.
-- Farmland area/irrigated acres - Irrigated acres in Maricopa County every five years from 1997 to 2022 is in [maricopa_irrigated_timeline.csv](Data/RawData/maricopa_irrigation_timeline.csv).
+- Farmland area/irrigated acres
+  - Irrigated acres in Maricopa County every five years from 1997 to 2022 is in [maricopa_irrigated_timeline.csv](Data/RawData/maricopa_irrigation_timeline.csv).
+  - Volume of water provided to agriculture via surface water ("primarily provided by the Salt River Project or other districts" according to the [Fifth Management Plan](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.azwater.gov/sites/default/files/media/Phx5MP.pdf)) is in [AMA_Demand_Supply_from_DW.csv](Data/RawData/AMA_Demand_Supply_from_DW.csv). I think units are AF. 
 - Data centers (number, year operational, MW capacity - known to be correlated with water use) - https://cleanview.co/data-centers/us
   - Havi: I got Gemini to generate a CSV file with data center information. I checked a few entries for correctness but we should make sure all of the information is correct! This is in [phoenix_datacenters_chronological.csv](Data/RawData/phoenix_datacenters_chronological.csv).
 
