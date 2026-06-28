@@ -1,0 +1,24 @@
+table with row headers in column A and column headers in rows 3 through 4 (leading dots indicate sub-parts),,,,,,,,,,,
+GeographicArea,April2010_Census,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019
+Arizona,"6,392,292","6,401,304","6,443,158","6,501,800","6,555,926","6,629,890","6,705,607","6,793,278","6,872,380","6,964,300","7,067,695"
+".Apache County, Arizona","71,514","71,681","71,444","70,902","70,414","69,300","67,927","67,727","67,258","66,948","66,460"
+".Cochise County, Arizona","131,359","131,771","132,866","131,619","128,991","126,558","125,508","124,592","123,547","124,874","125,334"
+".Coconino County, Arizona","134,435","134,678","134,580","136,692","137,493","138,597","140,239","141,966","142,873","144,704","145,975"
+".Gila County, Arizona","53,592","53,539","53,317","52,779","52,693","52,638","52,483","52,760","52,877","52,989","53,130"
+".Graham County, Arizona","37,212","37,139","37,053","36,890","37,259","37,865","37,570","37,480","37,090","37,532","38,330"
+".Greenlee County, Arizona","8,444","8,347","8,612","8,809","8,983","9,441","9,691","9,767","9,595","9,589","9,651"
+".La Paz County, Arizona","20,489","20,378","19,996","19,424","18,937","18,444","17,911","17,615","17,194","16,998","16,737"
+".Maricopa County, Arizona","3,817,371","3,821,703","3,857,934","3,916,733","3,973,267","4,035,496","4,101,119","4,170,720","4,227,971","4,290,093","4,363,090"
+".Mohave County, Arizona","200,181","200,255","202,479","202,748","202,259","202,280","203,173","203,855","205,297","207,673","210,821"
+".Navajo County, Arizona","107,488","107,565","106,914","106,171","105,483","105,544","104,982","105,337","105,397","106,224","106,255"
+".Pima County, Arizona","980,266","981,261","986,556","989,728","992,316","997,906","1,001,320","1,007,353","1,015,829","1,024,904","1,034,864"
+".Pinal County, Arizona","375,766","377,833","371,737","370,875","368,974","373,858","379,112","385,383","394,457","404,387","414,398"
+".Santa Cruz County, Arizona","47,417","47,422","47,746","47,520","47,177","46,955","46,936","46,939","47,190","47,142","47,507"
+".Yavapai County, Arizona","211,008","210,912","210,690","211,360","213,521","216,551","219,375","222,870","226,127","229,883","233,165"
+".Yuma County, Arizona","195,750","196,820","201,234","199,550","198,159","198,457","198,261","198,914","199,678","200,360","201,978"
+"2010-2020 Intercensal Estimates data products are associated with Data Management System projects P-6000042, P-7501659, and P-7527355. The U.S. Census Bureau reviewed these data products for unauthorized disclosure of confidential information and approved the disclosure avoidance practices applied to this release (CBDRB-FY24-0481).    ",,,,,,,,,,,
+"The April 1, 2010 population estimates base reflects changes to the 2010 Census population from the Count Question Resolution program, legal boundary updates, and other geographic program revisions. The data source for April 1, 2020 is the 2020 Census count featuring the application of disclosure avoidance to protect confidentiality. For population estimates methodology statements, see https://www.census.gov/programs-surveys/popest/technical-documentation/methodology.html. All geographic boundaries for the 2010-2020 Intercensal Estimates series are as of 2020.",,,,,,,,,,,
+Suggested Citation:,,,,,,,,,,,
+"Intercensal Estimates of the Resident Population for Counties in Arizona: April 1, 2010 to April 1, 2020 (CO-EST2020INT-POP-04)",,,,,,,,,,,
+"Source: U.S. Census Bureau, Population Division",,,,,,,,,,,
+Release Date: November 2024,,,,,,,,,,,
