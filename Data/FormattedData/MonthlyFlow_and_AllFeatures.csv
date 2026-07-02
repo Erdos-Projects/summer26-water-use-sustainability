@@ -1,5 +1,4 @@
 Time,flow_salt_upstream,log_flow_salt_upstream,flow_salt_downstream,log_flow_salt_downstream,flow_verde_upstream,log_flow_verde_upstream,flow_verde_downstream,log_flow_verde_downstream,Temp_Maricopa,Precip_Maricopa,Temp_Salt,Temp_Verde,Precip_Salt,Precip_Verde,Population,IrrigatedLand_Acres,datacenters_TotalMW,datacenters_TotalNum
-2026-06-01,,,,,,,,,,,,,,,,,1212.0,13.0
 2026-05-01,,,570.4705882352941,6.348213017755325,,,,,25.614475,902.9541,15.674928,16.804207,16171.973,9862.741,4689558.0,204522.0,1212.0,13.0
 2026-04-01,,,722.6666666666666,6.584330881210182,,,,,21.909725,665.5547,11.983159,12.4657135,9620.142,15625.985,4689558.0,204522.0,1212.0,13.0
 2026-03-01,,,126.26451612903226,4.846267724594692,,,,,23.317196,3099.919,13.461802,14.712197,4911.4805,1429.8135,4689558.0,204522.0,1212.0,13.0
