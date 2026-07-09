@@ -1,0 +1,23 @@
+=== VERDE DOWNSTREAM GRID SEARCH RESULTS ===
+============================================================
+
+Model Architecture: randforest
+Best Parameters Found: {'max_depth': 10, 'n_estimators': 500}
+Best Recursive Cross-Validation RMSE: 0.9838
+Benchmark Seasonal Average Baseline RMSE: 1.0717
+----------------------------------------------------------------------
+Model Architecture: adaboost
+Best Parameters Found: {'n_estimators': 200, 'learning_rate': 0.1}
+Best Recursive Cross-Validation RMSE: 0.9972
+Benchmark Seasonal Average Baseline RMSE: 1.0717
+----------------------------------------------------------------------
+Model Architecture: gradientboost
+Best Parameters Found: {'max_depth': 3, 'n_estimators': 100}
+Best Recursive Cross-Validation RMSE: 0.9756
+Benchmark Seasonal Average Baseline RMSE: 1.0717
+----------------------------------------------------------------------
+Model Architecture: xgboost
+Best Parameters Found: {'max_depth': 6, 'n_estimators': 100}
+Best Recursive Cross-Validation RMSE: 0.9596
+Benchmark Seasonal Average Baseline RMSE: 1.0717
+----------------------------------------------------------------------
