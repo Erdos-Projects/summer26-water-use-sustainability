@@ -1,0 +1,13 @@
+=== SALT UPSTREAM GRID SEARCH RESULTS ===
+============================================================
+
+Model Architecture: randforest
+Best Parameters Found: {'max_depth': 10, 'n_estimators': 300}
+Best Recursive Cross-Validation RMSE: 0.5693
+Benchmark Seasonal Average Baseline RMSE: 0.8725
+----------------------------------------------------------------------
+Model Architecture: xgboost
+Best Parameters Found: {'max_depth': 4, 'n_estimators': 100}
+Best Recursive Cross-Validation RMSE: 0.6621
+Benchmark Seasonal Average Baseline RMSE: 0.8725
+----------------------------------------------------------------------

@@ -1,0 +1,13 @@
+=== SALT RIVER UPSTREAM LAG SELECTION RESULTS ===
+==================================================
+
+Model: randforest
+Discovered Optimal Lags: ['log_flow_salt_upstream_lag_1', 'log_flow_salt_upstream_lag_12']
+Best Average RMSE: 0.5959
+Benchmark Seasonal Average Baseline RMSE: 0.8725
+--------------------------------------------------
+Model: xgboost
+Discovered Optimal Lags: ['log_flow_salt_upstream_lag_1', 'log_flow_salt_upstream_lag_2']
+Best Average RMSE: 0.6678
+Benchmark Seasonal Average Baseline RMSE: 0.8725
+--------------------------------------------------

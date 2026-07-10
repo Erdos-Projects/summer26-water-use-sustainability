@@ -1,0 +1,13 @@
+=== SALT RIVER DOWNSTREAM LAG SELECTION RESULTS ===
+==================================================
+
+Model: randforest
+Discovered Optimal Lags: ['log_flow_salt_downstream_lag_9', 'log_flow_salt_downstream_lag_12']
+Best Average RMSE: 1.7355
+Benchmark Seasonal Average Baseline RMSE: 1.7543
+--------------------------------------------------
+Model: xgboost
+Discovered Optimal Lags: ['log_flow_salt_downstream_lag_12', 'log_flow_salt_downstream_lag_2']
+Best Average RMSE: 1.7462
+Benchmark Seasonal Average Baseline RMSE: 1.7543
+--------------------------------------------------
