@@ -12,16 +12,7 @@ The stakeholders would be local government, water utility operators, farmers, da
 
 ## KPIs
 
-Our primary KPI is RMSE, which we would like to minimize. 
-
-I'm not really sure what to put for secondary KPIs. Chat GPT suggests $R^2$ variance (maximize), critical threshold recall (maximize), and inference latency (minimize). Here is a summary table that Chat GPT made:
-
-| KPI Type | Specific Metric | Formula | Improvement Direction | Stakeholder Value |
-| :--- | :--- | :--- | :--- | :--- |
-| **Primary** | Root Mean Squared Error (RMSE) | $\sqrt{\frac{1}{n}\sum(y - \hat{y})^2}$ | ⬇️ **Minimize** | Penalizes large, dangerous prediction misses. |
-| **Secondary (Hydrology)** | $R^2$ Variance Explained | $1 - \frac{SS_{res}}{SS_{tot}}$ | ⬆️ **Maximize** | Proves data center/farm data adds predictive value over a naive mean guess. |
-| **Secondary (Safety)** | Critical Threshold Recall | $\frac{\text{True Shortages Captured}}{\text{Total Actual Shortages}}$ | ⬆️ **Maximize** | Guarantees the model successfully flags upcoming droughts before they happen. |
-| **Technical** | Inference Latency | Time ($t_{\text{end}} - t_{\text{start}}$) | ⬇️ **Minimize** | Ensures the script runs fast enough for live software dashboards. |
+Our primary KPI is RMSE of river flow rate predictions, which we would like to minimize. 
 
 ## Data Gathering
 Each of the two rivers have water gages which measure water flow rate. For each river, we will look at the flow rate from a gage that is upstream of the reservoirs, and another that is downstream. The upstream gage is a measure of water input to the reservoirs from snowpack, rainfall etc. The downstream gage measures how much water is released from the reservoirs, which should be roughly correlated with the demand for water (Note: not all water released from the reservoirs is consumed by humans, some of it is just released to keep the river flowing and protect natural habitats etc. So this is not a perfect measure for water demand, but it should be good enough). Thus we will use data from four river gages in total (one upstream + one downstream for each river). 
