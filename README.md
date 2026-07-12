@@ -12,3 +12,30 @@ This repository has three four folders.
 # [Code](Code)
 
 The [Code](Code) folder contains all of our code used to process and model our data. 
+
+## 📓 Code Workspace Directory (`/Code`)
+
+This directory contains the Jupyter Notebooks used to preprocess climate datasets, perform data cleaning, select and evaluate models, and run predictive forecasting for both the Verde and Salt River systems.
+
+### 🗂️ Notebook Architecture & Sequential Workflow
+
+The notebooks are numbered sequentially.:
+
+#### 🔹 Phase 1: Data Ingestion & Preprocessing
+* **`00_ClimateDataPreprocessing.ipynb`** — Aggregates and cleans raw climate data (temperature and precipitation).
+* **`01_Data_Cleaning.ipynb`** — Standard baseline data engineering, missing-value handling, and variance-stabilization formatting (such as log transformations).
+* **`01_maricopa_irrigated_farmland_API_request.ipynb`** — Scripted data retrieval pipeline querying an external APIs to obtain irrigated farmland data.
+* **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for raw climate projection data.
+
+#### 🔹 Phase 2: Verde River System Analysis
+* **`03_verde_modeling.ipynb`** — Runs cross-validation sweeps across candidate machine learning models (Gradient Boosting, XGBoost, etc.) to optimize upstream and downstream streamflow predictions.
+* **`04_confidence_intervals.ipynb`** — Quantifies model uncertainty margins and evaluates statistical variance properties for our predictions.
+
+#### 🔹 Phase 3: Salt River System & Production
+* **`05_salt_river_eda.ipynb`** — Exploratory Data Analysis mapping out historical distribution profiles, correlations, and anomalies specific to the Salt River Basin.
+* **`06_salt_river_modeling.ipynb`** — Implements core training loops and tests machine learning algorithms for the Salt River system.
+* **`07_salt_river_future_predictions.ipynb`** — Deploys the top-performing models to forecast multi-year water accessibility windows and long-term sustainability impacts.
+
+#### 🔹 Phase 4: Deliverables
+* **`Final_Plots.ipynb`** — Compiles presentation-ready matplotlib/seaborn data visualizations, time-series evaluation trends, and project dashboard curves.
+* **`Baselines/`** *(Folder)* — Houses the basic heuristic benchmark metrics (such as Seasonal Averages) against which all machine learning improvements are calculated.
