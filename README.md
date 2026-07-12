@@ -18,18 +18,22 @@ The notebooks are numbered sequentially.:
 * **`01_Data_Cleaning.ipynb`** — Standard baseline data engineering, missing-value handling, and variance-stabilization formatting (such as log transformations).
 * **`01_maricopa_irrigated_farmland_API_request.ipynb`** — Scripted data retrieval pipeline querying an external APIs to obtain irrigated farmland data.
 * **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for raw climate projection data.
+* **`Final_Plots.ipynb`** — Exploratory plots of our assorted data sets.
 
-#### 🔹 Phase 2: Verde River Modeling and Predictions
-* **`03_verde_modeling.ipynb`** — Selects and evaluates Verde River flow models. Also predicts future Verde River flow using climate projections.
+#### 🔹 Phase 2: Modeling
 * **`Baselines/`** *(Folder)* — Contains code for baseline time series models.
 
-#### 🔹 Phase 3: Salt River Modeling and Predictions
+#### 🔹 Phase 2(a): Verde River Modeling and Predictions
+* **`03_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
+* **`03_verde_final_results.ipynb`** - Final Verde River model training and evaluation.
+* **`03_verde_future_predictions.ipynb`** - Predicts future Verde River flow using our final models and climate projections.
+
+#### 🔹 Phase 2(b): Salt River Modeling and Predictions
 * **`05_salt_river_eda.ipynb`** — 
 * **`06_salt_river_modeling.ipynb`** — 
 * **`07_salt_river_future_predictions.ipynb`** — 
 
-#### 🔹 Phase 4: Plots and Confidence Intervals
-* **`Final_Plots.ipynb`** —
+#### 🔹 Phase 3: Confidence Intervals
 * **`04_confidence_intervals.ipynb`** —
 
 ## [Data](Data)
