@@ -55,9 +55,5 @@ This directory contains our final executive summary and our final presentation.
 
 ### Directory Structure
 
-* **`RawData/`**
-  * *Description:* Contains unmodified data gathered directly from various sources.
-  * *Policy:* These files are kept completely unmodified.
-* **`FormattedData/`**
-  * *Description:* Contains the cleaned and processed datasets used during model training and evaluation.
-  * *Key Modifications:* This folder hosts datasets that have undergone missing-value imputation, timeline synchronization, feature lag mapping (e.g., Lags 1, 5, 6, 11), and the critical $log(x+1)$ variance-stabilization transformations.
+* **`final_presentation.pdf`** — Our final presentation.
+* **`executive_summary.pdf`** — Our executive summary detailing data gathering and cleaning, model selection and evaluation, future predictions with confidence intervals, and limitations and recommendations of our project.
