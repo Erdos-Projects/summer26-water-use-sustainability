@@ -23,15 +23,15 @@ The notebooks are numbered sequentially.:
 #### 🔹 Phase 2: Modeling
 * **`Baselines/`** *(Folder)* — Contains code for baseline time series models.
 
-#### 🔹 Phase 2(a): Verde River Modeling and Predictions
-* **`03_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
-* **`03_verde_final_results.ipynb`** — Final Verde River model training and evaluation.
-* **`03_verde_future_predictions.ipynb`** — Predicts future Verde River flow using our final models and climate projections.
+    #### 🔹 Phase 2(a): Verde River Modeling and Predictions
+    * **`03_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
+    * **`03_verde_final_results.ipynb`** — Final Verde River model training and evaluation.
+    * **`03_verde_future_predictions.ipynb`** — Predicts future Verde River flow using our final models and climate projections.
 
-#### 🔹 Phase 2(b): Salt River Modeling and Predictions
-* **`05_salt_river_eda.ipynb`** — 
-* **`06_salt_river_modeling.ipynb`** — 
-* **`07_salt_river_future_predictions.ipynb`** — 
+    #### 🔹 Phase 2(b): Salt River Modeling and Predictions
+    * **`05_salt_river_eda.ipynb`** — Exploratory Data Analysis mapping out historical distribution profiles, correlations, and anomalies specific to the Salt River Basin.
+    * **`06_salt_river_modeling.ipynb`** — Implements core training loops and tests machine learning algorithms for the Salt River system.
+    * **`07_salt_river_future_predictions.ipynb`** — Deploys the top-performing models to forecast multi-year water accessibility windows and long-term sustainability impacts.
 
 #### 🔹 Phase 3: Confidence Intervals
 * **`04_confidence_intervals.ipynb`** —
