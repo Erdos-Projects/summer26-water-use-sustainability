@@ -52,7 +52,7 @@ This directory contains the datasets used for our models. Data is separated into
 
 ## [Output](Output)
 
-This directory contains various outputs generated throughout the data cleaning, EDA and model selection and evaluation processes.
+This directory contains various outputs (graphs, model evaluation summaries, etc) generated throughout the data cleaning, EDA and model selection and evaluation processes.
 
 ## [Presentation](presentation)
 
