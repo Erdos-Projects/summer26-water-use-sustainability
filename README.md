@@ -14,7 +14,7 @@ This directory contains the Jupyter Notebooks used to preprocess climate dataset
 The notebooks are numbered sequentially.:
 
 #### 🔹 Phase 1: Data Ingestion & Preprocessing
-* **[00_ClimateDataPreprocessing.ipynb](Code/00_ClimateDataPreprocessing.ipynb)** — Downloads, filters and aggregates climate data (temperature and precipitation). 
+* **`00_ClimateDataPreprocessing.ipynb`** — Downloads, filters and aggregates climate data (temperature and precipitation). 
 * **`01_Data_Cleaning.ipynb`** — Standard baseline data engineering, missing-value handling, and variance-stabilization formatting (such as log transformations).
 * **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for future projected values of features.
 
@@ -23,20 +23,20 @@ The notebooks are numbered sequentially.:
 
     #### 🔹 Phase 2(a): Verde River Modeling and Predictions
     * **`03_verde_eda.ipynb`** — Some basic EDA for Verde River flow data.
-    * **`03_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
-    * **`03_verde_final_results.ipynb`** — Final Verde River model training and evaluation.
-    * **`03_verde_future_predictions.ipynb`** — Predicts future Verde River flow using our final models and climate projections.
+    * **`04_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
+    * **`05_verde_final_results.ipynb`** — Final Verde River model training and evaluation.
+    * **`06_verde_future_predictions.ipynb`** — Predicts future Verde River flow using our final models and climate projections.
 
     #### 🔹 Phase 2(b): Salt River Modeling and Predictions
-    * **`05_salt_river_eda.ipynb`** — 
-    * **`06_salt_river_modeling.ipynb`** — 
-    * **`07_salt_river_future_predictions.ipynb`** — 
+    * **`07_salt_river_eda.ipynb`** — Som basic EDA for Salt River flow data
+    * **`08_salt_river_modeling.ipynb`** — Implements time series cross validation to compare Salt river flow models. 
+    * **`09_salt_river_future_predictions.ipynb`** — Predicts future Salt River flow using our final models and climate projections
 
 #### 🔹 Phase 3: Confidence Intervals
 * **`04_confidence_intervals.ipynb`** —
   
 #### 🔹 Phase 4: Final plots
-* **`Final_Plots.ipynb`** — Plots of our assorted data sets and model predictions.
+* **`12_Final_Plots.ipynb`** — Plots of our assorted data sets and model predictions.
 ## [Data](Data)
 
 This directory contains the datasets used for our models. Data is separated into immutable raw data and cleaned, processed data.
