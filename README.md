@@ -9,7 +9,7 @@ Many areas of the Southwest US are expected to face water shortages under climat
 
 This directory contains the Jupyter Notebooks used to preprocess climate datasets, perform data cleaning, select and evaluate models, and run predictive forecasting for both the Verde and Salt River systems.
 
-### 🗂️ Notebook Architecture & Sequential Workflow
+### 🗂️ Directory Structure
 
 The notebooks are numbered sequentially.:
 
