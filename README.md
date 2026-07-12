@@ -43,6 +43,7 @@ This directory contains the datasets used for our models. Data is separated into
   * *Policy:* These files are kept completely unmodified.
 * **`FormattedData/`**
   * *Description:* Contains the cleaned and processed datasets used during model training and evaluation.
+  * The final conglomerated data set we used for modeling is [Combined_Monthly_Data.csv](Data/FormattedData/Combined_Monthly_Data.csv)
   * *Key Modifications:* This folder hosts datasets that have undergone missing-value imputation, timeline synchronization, feature lag mapping (e.g., Lags 1, 5, 6, 11), and the critical $log(x+1)$ variance-stabilization transformations.
 
 ## [Output](Output)
