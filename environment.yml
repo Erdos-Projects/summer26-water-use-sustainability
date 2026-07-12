@@ -1,0 +1,33 @@
+name: erdos_water_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  
+  # Core Data Science & Ingestion
+  - pandas
+  - numpy
+  - requests
+  - joblib
+  
+  # Machine Learning Ensembles & Lags
+  - scikit-learn
+  - statsmodels
+  
+  # Geospatial Analysis & Plotting (New additions)
+  - geopandas
+  - contextily
+  - shapely
+  - pyproj
+  
+  # Visualization Infrastructure
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  
+  # PyPI specific installations
+  - pip:
+    - xgboost
