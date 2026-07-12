@@ -61,5 +61,5 @@ This directory contains our final executive summary and our final presentation.
 
 ### Directory Structure
 
-* **`final_presentation.pdf`** — Our final presentation.
+* **`Water Sustainability Presentation.pdf`** — Our final presentation.
 * **`executive_summary.pdf`** — Our executive summary detailing data gathering and cleaning, model selection and evaluation, future predictions with confidence intervals, and limitations and recommendations of our project.
