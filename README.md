@@ -22,6 +22,7 @@ The notebooks are numbered sequentially.:
 * **`Baselines/`** *(Folder)* — Contains code for baseline time series models.
 
     #### 🔹 Phase 2(a): Verde River Modeling and Predictions
+    * **`03_verde_eda.ipynb`** — Some basic EDA for Verde River flow data.
     * **`03_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
     * **`03_verde_final_results.ipynb`** — Final Verde River model training and evaluation.
     * **`03_verde_future_predictions.ipynb`** — Predicts future Verde River flow using our final models and climate projections.
