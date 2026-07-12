@@ -49,3 +49,15 @@ This directory contains the datasets used for our models. Data is separated into
 
 This directory contains various outputs generated throughout the data cleaning, EDA and model selection and evaluation processes.
 
+## [FinalReports](FinalReports)
+
+This directory contains our final executive summary and our final presentation.
+
+### Directory Structure
+
+* **`RawData/`**
+  * *Description:* Contains unmodified data gathered directly from various sources.
+  * *Policy:* These files are kept completely unmodified.
+* **`FormattedData/`**
+  * *Description:* Contains the cleaned and processed datasets used during model training and evaluation.
+  * *Key Modifications:* This folder hosts datasets that have undergone missing-value imputation, timeline synchronization, feature lag mapping (e.g., Lags 1, 5, 6, 11), and the critical $log(x+1)$ variance-stabilization transformations.
