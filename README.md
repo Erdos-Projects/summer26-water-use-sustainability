@@ -25,8 +25,8 @@ The notebooks are numbered sequentially.:
 
 #### 🔹 Phase 2(a): Verde River Modeling and Predictions
 * **`03_verde_modeling.ipynb`** — Implements time series cross validation to compare Verde River flow models.
-* **`03_verde_final_results.ipynb`** - Final Verde River model training and evaluation.
-* **`03_verde_future_predictions.ipynb`** - Predicts future Verde River flow using our final models and climate projections.
+* **`03_verde_final_results.ipynb`** — Final Verde River model training and evaluation.
+* **`03_verde_future_predictions.ipynb`** — Predicts future Verde River flow using our final models and climate projections.
 
 #### 🔹 Phase 2(b): Salt River Modeling and Predictions
 * **`05_salt_river_eda.ipynb`** — 
