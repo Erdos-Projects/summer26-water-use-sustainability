@@ -17,7 +17,6 @@ The notebooks are numbered sequentially.:
 * **[00_ClimateDataPreprocessing.ipynb](Code/00_ClimateDataPreprocessing.ipynb)** — Downloads, filters and aggregates climate data (temperature and precipitation). 
 * **`01_Data_Cleaning.ipynb`** — Standard baseline data engineering, missing-value handling, and variance-stabilization formatting (such as log transformations).
 * **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for future projected values of features.
-* **`Final_Plots.ipynb`** — Exploratory plots of our assorted data sets.
 
 #### 🔹 Phase 2: Modeling and Predictions
 * **`Baselines/`** *(Folder)* — Contains code for baseline time series models.
@@ -34,7 +33,9 @@ The notebooks are numbered sequentially.:
 
 #### 🔹 Phase 3: Confidence Intervals
 * **`04_confidence_intervals.ipynb`** —
-
+  
+#### 🔹 Phase 4: Final plots
+* **`Final_Plots.ipynb`** — Plots of our assorted data sets and model predictions.
 ## [Data](Data)
 
 This directory contains the datasets used for our models. Data is separated into immutable raw data and cleaned, processed data.
