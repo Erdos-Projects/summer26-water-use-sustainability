@@ -32,7 +32,7 @@ The notebooks are numbered sequentially.:
 #### 🔹 Phase 4: Deliverables
 * **`Final_Plots.ipynb`** —
 
-## 💾 Data Directory (`/Data`)
+## 💾 [Data](Data)
 
 This directory contains the datasets used for our models. Data is separated into immutable raw data and cleaned, processed data.
 
