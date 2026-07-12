@@ -49,7 +49,7 @@ This directory contains the datasets used for our models. Data is separated into
 
 This directory contains various outputs generated throughout the data cleaning, EDA and model selection and evaluation processes.
 
-## [FinalReports](FinalReports)
+## [presentation](presentation)
 
 This directory contains our final executive summary and our final presentation.
 
