@@ -19,18 +19,18 @@ The notebooks are numbered sequentially.:
 * **`01_maricopa_irrigated_farmland_API_request.ipynb`** — Scripted data retrieval pipeline querying an external APIs to obtain irrigated farmland data.
 * **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for raw climate projection data.
 
-#### 🔹 Phase 2: Verde River Analysis
+#### 🔹 Phase 2: Verde River Modeling and Predictions
 * **`03_verde_modeling.ipynb`** — Selects and evaluates Verde River flow models. Also predicts future Verde River flow using climate projections.
-* **`04_confidence_intervals.ipynb`** —
 * **`Baselines/`** *(Folder)* — Contains code for baseline time series models.
 
-#### 🔹 Phase 3: Salt River Analysis
+#### 🔹 Phase 3: Salt River Modeling and Predictions
 * **`05_salt_river_eda.ipynb`** — 
 * **`06_salt_river_modeling.ipynb`** — 
 * **`07_salt_river_future_predictions.ipynb`** — 
 
-#### 🔹 Phase 4: Deliverables
+#### 🔹 Phase 4: Plots and Confidence Intervals
 * **`Final_Plots.ipynb`** —
+* **`04_confidence_intervals.ipynb`** —
 
 ## [Data](Data)
 
