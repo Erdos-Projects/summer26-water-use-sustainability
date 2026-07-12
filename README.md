@@ -7,7 +7,7 @@ Many areas of the Southwest US are expected to face water shortages under climat
 
 # Repository Structure
 
-## run.sh
+## [run.sh](run.sh)
 
 Bash script for running all code files.
 
