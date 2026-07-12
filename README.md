@@ -20,7 +20,7 @@ The notebooks are numbered sequentially.:
 * **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for raw climate projection data.
 * **`Final_Plots.ipynb`** — Exploratory plots of our assorted data sets.
 
-#### 🔹 Phase 2: Modeling
+#### 🔹 Phase 2: Modeling and Predictions
 * **`Baselines/`** *(Folder)* — Contains code for baseline time series models.
 
     #### 🔹 Phase 2(a): Verde River Modeling and Predictions
