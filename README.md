@@ -5,11 +5,11 @@ How will Phoenix's water supply be affected by climate change and upcoming data 
 
 Many areas of the Southwest US are expected to face water shortages under climate change. At the same time, data centers are being built across this region, which could further put a strain on water availability. Using the city of Phoenix, AZ and the surrounding county (Maricopa county) as an example, we aim to forecast municipal water demand and supply in the near future. Phoenix receives most its municipal water from the Salt River Project, which manages a system of reservoirs on the Salt river and Verde river. We will model inflow into and outflow from these reservoirs as a function of various factors such as temperature, precipitation, population dependent on the reservoir for water, number of farms in the vicinity, number of data centers, etc. 
 
-## 📓 [Code](Code)
+## [Code](Code)
 
 This directory contains the Jupyter Notebooks used to preprocess climate datasets, perform data cleaning, select and evaluate models, and run predictive forecasting for both the Verde and Salt River systems.
 
-### 🗂️ Directory Structure
+### Directory Structure
 
 The notebooks are numbered sequentially.:
 
@@ -32,11 +32,11 @@ The notebooks are numbered sequentially.:
 #### 🔹 Phase 4: Deliverables
 * **`Final_Plots.ipynb`** —
 
-## 💾 [Data](Data)
+## [Data](Data)
 
 This directory contains the datasets used for our models. Data is separated into immutable raw data and cleaned, processed data.
 
-### 🗂️ Directory Structure
+### Directory Structure
 
 * **`RawData/`**
   * *Description:* Contains unmodified data gathered directly from various sources.
