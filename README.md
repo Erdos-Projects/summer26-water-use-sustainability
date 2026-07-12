@@ -16,7 +16,6 @@ The notebooks are numbered sequentially.:
 #### 🔹 Phase 1: Data Ingestion & Preprocessing
 * **[00_ClimateDataPreprocessing.ipynb](Code/00_ClimateDataPreprocessing.ipynb)** — Downloads, filters and aggregates climate data (temperature and precipitation). 
 * **`01_Data_Cleaning.ipynb`** — Standard baseline data engineering, missing-value handling, and variance-stabilization formatting (such as log transformations).
-* **`01_maricopa_irrigated_farmland_API_request.ipynb`** — Scripted data retrieval pipeline querying an external APIs to obtain irrigated farmland data.
 * **`02_Data_Cleaning_FutureValues_of_Features.ipynb`** — Data cleaning for future projected values of features.
 * **`Final_Plots.ipynb`** — Exploratory plots of our assorted data sets.
 
