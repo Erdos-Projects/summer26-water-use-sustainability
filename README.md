@@ -36,13 +36,15 @@ The notebooks are numbered sequentially.:
     #### 🔹 Phase 2(b): Salt River Modeling and Predictions
     * **`07_salt_river_eda.ipynb`** — Som basic EDA for Salt River flow data
     * **`08_salt_river_modeling.ipynb`** — Implements time series cross validation to compare Salt river flow models. 
-    * **`09_salt_river_future_predictions.ipynb`** — Predicts future Salt River flow using our final models and climate projections
+    * **`09_salt_river_future_predictions.ipynb`** — Predicts future Salt River flow using our final models and climate projections.
 
 #### 🔹 Phase 3: Confidence Intervals
-* **`04_confidence_intervals.ipynb`** —
+* **`10_block_bootstrap.ipynb`** — Performs block bootstrap resampling to estimate model prediction uncertainties.
+* **`11_salt_uncertainties.ipynb`** — Carries forward uncertainties to predicted future Salt River reservoir changes.
+* **`12_verde_uncertainties.ipynb`** — Carries forward uncertainties to predicted future Verde River reservoir changes.
   
 #### 🔹 Phase 4: Final plots
-* **`12_Final_Plots.ipynb`** — Plots of our assorted data sets and model predictions.
+* **`13_Final_Plots.ipynb`** — Plots of our assorted data sets and model predictions.
 ## [Data](Data)
 
 This directory contains the datasets used for our models. Data is separated into immutable raw data and cleaned, processed data.
