@@ -11,6 +11,10 @@ Many areas of the Southwest US are expected to face water shortages under climat
 
 Bash script for running all code files.
 
+## [environment.yml](environment.yml)
+
+Environment for this repository. This environment is from the Erd&#337;s Institute Data Science Bootcamp Summer 2026.
+
 ## [Code](Code)
 
 This directory contains the Jupyter Notebooks used to preprocess climate datasets, perform data cleaning, select and evaluate models, and run predictive forecasting for both the Verde and Salt River systems.
